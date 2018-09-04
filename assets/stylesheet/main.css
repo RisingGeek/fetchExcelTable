@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+}
+#xportxlsx, #myForm {
+    display: none;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    margin: 2% 0%;
+}
+.box {
+    text-align: center;
+}
+#add, #column {
+    display: none;
+    margin: 3% 0%;
+}
+#help {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.tweet, .another {
+    display: none;
+}
