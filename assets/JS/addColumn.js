@@ -4,10 +4,10 @@ $(document).ready(function() {
         var table=document.getElementById("tab");
         var tbody=table.querySelector("tbody");
         var rows=tbody.querySelectorAll("tr");
-        for(let i=0;i<rows.length;i++) {
+        rows.forEach(function(row) {
             var column=document.createElement("td");
-            rows[i].appendChild(column);
+            row.appendChild(column);
             column.innerHTML="";
-        }
+        });
     });
 });

@@ -3,7 +3,7 @@ $(document).ready(function() {
     var description = `This application fetches data from an excel file and
     displays it in the form of table which is editable. You can also generate
     a bar graph by specifying some legal values. This application also allows
-    you to download the updated table in the form of excel file.`
+    you to download the updated table in the form of excel file.`;
     var i = 0;
     typeWriter();
     /*Heading animation*/
@@ -43,12 +43,14 @@ $(document).ready(function() {
                 $("#column").show();
                 $(".tweet").show();
                 $(".another").show();
+                $(".choose").show();
+                $("#choose").show();
                 $("#input-excel").hide();
                 $("#sheet").hide();
                 $(".sheet").hide();
                 chart();
                 $('#tab').on('input',destroy);
-        }
+        };
     });
 
     $('.another').click(function() {

@@ -26,6 +26,6 @@ body {
     top: 2%;
     right: 2%;
 }
-.tweet, .another {
+.tweet, .another, .choose, #choose {
     display: none;
 }

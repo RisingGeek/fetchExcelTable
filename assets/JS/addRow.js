@@ -7,7 +7,7 @@ $(document).ready(function() {
         tbody.appendChild(row);
         var rows=table.rows;
         var cells = rows[0].cells;
-        for(let i=0;i<cells.length;i++) {
+        for(let i of cells) {
             var cell=document.createElement("td");
             row.appendChild(cell);
             cell.innerHTML="";
